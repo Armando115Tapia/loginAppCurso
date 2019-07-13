@@ -20,6 +20,7 @@ export class LoginComponent implements OnInit {
     if(formulario.invalid){
       return ;
     }
+    console.log(this.usuario);
     console.log(formulario);
 
   }
