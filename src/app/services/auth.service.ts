@@ -12,6 +12,9 @@ export class AuthService {
   // Tamado de engranaje-> configuracion del proyecto -> Clave API web
   private apikey = ' AIzaSyCok6Hv6npmV-d_JsN-hI24WlRxjKNMyvw ';
 
+  // Ruta de donde se saco los links
+  // https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-password
+
   // Crear nuevo usuario
   // https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=[API_KEY]
 
